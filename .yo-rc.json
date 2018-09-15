@@ -34,7 +34,6 @@
     "languages": [
       "en"
     ],
-    "herokuDeployType": "git",
-    "herokuAppName": "abstrakt-cleaning"
+    "herokuDeployType": "git"
   }
 }
