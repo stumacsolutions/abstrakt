@@ -9,7 +9,7 @@ import { IArea } from 'app/shared/model/area.model';
 import { IRootState } from 'app/shared/reducers';
 import { getEntity, deleteEntity } from './area.reducer';
 
-export interface IAreaDeleteDialogProps extends StateProps, DispatchProps, RouteComponentProps<{ id: number }> {}
+export interface IAreaDeleteDialogProps extends StateProps, DispatchProps, RouteComponentProps<{ id: any }> {}
 
 export class AreaDeleteDialog extends React.Component<IAreaDeleteDialogProps> {
   componentDidMount() {

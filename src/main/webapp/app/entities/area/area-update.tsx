@@ -14,7 +14,7 @@ import { IArea } from 'app/shared/model/area.model';
 import { convertDateTimeFromServer } from 'app/shared/util/date-utils';
 import { mapIdList } from 'app/shared/util/entity-utils';
 
-export interface IAreaUpdateProps extends StateProps, DispatchProps, RouteComponentProps<{ id: number }> {}
+export interface IAreaUpdateProps extends StateProps, DispatchProps, RouteComponentProps<{ id: any }> {}
 
 export interface IAreaUpdateState {
   isNew: boolean;

@@ -9,7 +9,7 @@ import { IJob } from 'app/shared/model/job.model';
 import { IRootState } from 'app/shared/reducers';
 import { getEntity, deleteEntity } from './job.reducer';
 
-export interface IJobDeleteDialogProps extends StateProps, DispatchProps, RouteComponentProps<{ id: number }> {}
+export interface IJobDeleteDialogProps extends StateProps, DispatchProps, RouteComponentProps<{ id: any }> {}
 
 export class JobDeleteDialog extends React.Component<IJobDeleteDialogProps> {
   componentDidMount() {

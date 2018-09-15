@@ -12,7 +12,7 @@ import { IJob } from 'app/shared/model/job.model';
 // tslint:disable-next-line:no-unused-variable
 import { APP_DATE_FORMAT, APP_LOCAL_DATE_FORMAT } from 'app/config/constants';
 
-export interface IJobDetailProps extends StateProps, DispatchProps, RouteComponentProps<{ id: number }> {}
+export interface IJobDetailProps extends StateProps, DispatchProps, RouteComponentProps<{ id: any }> {}
 
 export class JobDetail extends React.Component<IJobDetailProps> {
   componentDidMount() {

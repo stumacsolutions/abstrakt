@@ -16,7 +16,7 @@ import { IJob } from 'app/shared/model/job.model';
 import { convertDateTimeFromServer } from 'app/shared/util/date-utils';
 import { mapIdList } from 'app/shared/util/entity-utils';
 
-export interface IJobUpdateProps extends StateProps, DispatchProps, RouteComponentProps<{ id: number }> {}
+export interface IJobUpdateProps extends StateProps, DispatchProps, RouteComponentProps<{ id: any }> {}
 
 export interface IJobUpdateState {
   isNew: boolean;

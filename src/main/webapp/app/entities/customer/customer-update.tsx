@@ -16,7 +16,7 @@ import { ICustomer } from 'app/shared/model/customer.model';
 import { convertDateTimeFromServer } from 'app/shared/util/date-utils';
 import { mapIdList } from 'app/shared/util/entity-utils';
 
-export interface ICustomerUpdateProps extends StateProps, DispatchProps, RouteComponentProps<{ id: number }> {}
+export interface ICustomerUpdateProps extends StateProps, DispatchProps, RouteComponentProps<{ id: any }> {}
 
 export interface ICustomerUpdateState {
   isNew: boolean;
